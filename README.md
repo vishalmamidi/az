@@ -19,3 +19,9 @@ SUBSCRIPTION=<id>
 az account set --subscription $SUBSCRIPTION
 ```
 
+
+```
+az logout
+az cache purge
+az account clear
+```
