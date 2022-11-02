@@ -22,6 +22,18 @@ az cache purge
 az account clear
 ```
 
+## Sign in with a service principal
+
+```
+TENANT=<tenant>
+APP_ID=<id>
+SECRET=<secret>
+```
+```
+az login --service-principal -u $APP_ID -p $SECRET --tenant $TENANT
+```
+
+
 
 ### Create Service Principal
 
