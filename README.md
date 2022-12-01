@@ -22,6 +22,13 @@ az cache purge
 az account clear
 ```
 
+## AKS 
+
+```
+az aks show -g aksresourcegroup -n myakscluster \
+  --query addonProfiles.httpApplicationRouting.config.HTTPApplicationRoutingZoneName -o table
+```
+
 ## Sign in with a service principal
 
 ```
