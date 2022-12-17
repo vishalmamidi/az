@@ -1,3 +1,6 @@
+```
+az storage container list --account-key ACCESS_KEY --account-name ACCOUNT_NAME
+```
 
 ```
 az login 
